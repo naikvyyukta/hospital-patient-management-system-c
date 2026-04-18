@@ -1,0 +1,7 @@
+Enter choice: 1
+Enter Name: Amit
+Booking Added!
+
+Enter choice: 3
+Patient List:
+Amit
