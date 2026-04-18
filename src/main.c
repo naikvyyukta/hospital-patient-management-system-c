@@ -1,3 +1,6 @@
+// Hospital Patient Management System
+// Queue implementation using Doubly Linked List
+// Author: Yukta V Naik
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -13,7 +16,7 @@ typedef struct DL
 {
     node *start;
 } DL;
-
+// Function to display patient list
 void display(DL *l)
 {
     node *p;
@@ -32,7 +35,7 @@ void display(DL *l)
         p = p->next;
     }
 }
-
+// Function to insert patient (enqueue)
 void insert(DL *l)
 {
     node *newrec;
@@ -54,7 +57,7 @@ void insert(DL *l)
     l->start = newrec;
     printf("\nBooking Added!");
 }
-
+// Function to delete patient (dequeue)
 void deleteB(DL *l)
 {
     node *p;
